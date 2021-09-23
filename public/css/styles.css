@@ -11860,3 +11860,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #d2a500;
   text-decoration: #d2a500 wavy underline;
 }
+
+.skills-category h2{
+  text-align:center;
+  color: #bf9600;
+  text-decoration: underline;
+}
