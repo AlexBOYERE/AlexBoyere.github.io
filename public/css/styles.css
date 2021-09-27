@@ -11397,7 +11397,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("/assets/img/header-bg.jpg");
+  background-image: url("../../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11865,4 +11865,32 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align:center;
   color: #bf9600;
   text-decoration: underline;
+}
+
+/*button download*/
+
+.download-cv-button{
+  margin: 20px;
+}
+
+.download-cv-button a{
+  padding: 8px 16px;
+  color: white;
+  background-color: #d2a500;
+  animation-duration: 5s;
+  animation-name: test;
+  animation-iteration-count: infinite;
+  border-radius: 100%;
+  text-align: center;
+}
+@keyframes test {
+  from {
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+  }
+  50%{
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  }
+  to {
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+  }
 }
