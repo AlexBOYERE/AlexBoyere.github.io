@@ -11877,13 +11877,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding: 8px 16px;
   color: white;
   background-color: #d2a500;
-  animation-duration: 5s;
-  animation-name: test;
+  animation-duration: 2s;
+  animation-name: anim-color;
   animation-iteration-count: infinite;
   border-radius: 100%;
   text-align: center;
 }
-@keyframes test {
+
+@keyframes anim-color {
   from {
     box-shadow: 0px 0px 20px rgb(255, 0, 0);
   }
