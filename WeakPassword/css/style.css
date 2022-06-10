@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    font-family: 'roboto mono';
+}
+a{
+    font-weight: 600;
+    color: inherit;
+}
+a:hover {
+    color: lightskyblue;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(250, 250, 250, 0.707);
+}
+div.form{
+    height: 80vh;
+    width: 25%;
+}
+.form-title{
+    font-size: 200%;
+    font-weight: 800;
+    text-align: left;
+}
+.desc{
+    font-size: 100%;
+    margin-top: 5%;
+    color: grey;
+    text-align: left;
+}
