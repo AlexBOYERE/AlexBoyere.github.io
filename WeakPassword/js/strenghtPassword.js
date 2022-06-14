@@ -1,9 +1,11 @@
 var Bar = document.querySelector('div.bar');
 var currentPercent = document.querySelector('div.percentage > div');
+var countChar = document.querySelector('div.count-char > div');
 var inputPasswordField = document.querySelector('input.password');
 
 inputPasswordField.addEventListener('keyup', (e) => {
     detPasswordStrength(inputPasswordField.value);
+    countChar.textContent = inputPasswordField.value.length;
 });
 
 function detPasswordStrength(password) {
@@ -29,7 +31,7 @@ function detPasswordStrength(password) {
 
 
 function displayPercent(pwdPercent) {
-    var count = currentPercent.textContent;
+    var count = currentPercent.textContent; // count = 5
     var total = pwdPercent;
 
     document.querySelector('div.percentage').style = '';
